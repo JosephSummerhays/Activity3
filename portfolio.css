@@ -1,0 +1,76 @@
+body {
+  background-color: #B5F5FF;
+
+}
+
+h1 {
+  font-family:fantasy;
+  font-size: 40px;
+  color: red;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 30px;
+}
+
+p {
+  font-family: sans-serif;
+  line-height: 2em;
+}
+
+li {
+    line-height: 2em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+li.active {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.active a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+section {
+  display: flex;
+}
+
+aside {
+  background-color: #1BDCFF;
+  flex: 1;
+  margin-right: 5%;
+  margin-left:0%;
+}
+
+article {
+  flex: 9
+}
